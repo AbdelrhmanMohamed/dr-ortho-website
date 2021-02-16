@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Cairo|Changa|El+Messiri|Markazi+Text|Tajawal&display=swap');
+
+
+body {
+	font-family: 'El Messiri', sans-serif;
+
+}
+
+
+
+/*********************************
+1. Header
+*********************************/
+
+
+.main_nav {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.main_nav ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.header_content {
+    justify-content: space-between;
+}
+
+.header_extra {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.button a {
+    font-size: 18px;
+}
+
+/*****************
+  menue
+*****************/
+.menu {
+    left: -350px;
+}
+
+.menu.active {
+    left: 0;
+}
+
+.menu_social {
+    left: 0;
+    right: 30px;
+}
+
+/*********************************
+ End Header
+*********************************/
+
+
+/*
+ 2. Home
+*********************************/
+
+.home .carousel-item {
+
+    transform: scaleX(-1);
+
+}
+
+.home_content {
+    transform: translateY(-50%) scaleX(-1);
+    box-shadow: 227px 3px 0px 50px #47caf1;
+    text-align: right;
+}
+
+@media only screen and (max-width: 575px) {
+    .home_content {
+        box-shadow: 227px 3px 0px 20px #47caf1;
+    }
+}
+
+.home_text p {
+    color: #5a5a5a;
+    text-align: right;
+}
+
+/*
+********************************
+ End Home
+********************************/
+
+
+/*
+ 3. About
+********************************/
+
+.about_content .button {
+    float: right
+}
+
+
+/*
+********************************
+ End About
+********************************/
+
+
+/*
+*
+ Start Servaices
+********************************/
+
+
+
+
+/*
+********************************
+ End Servaices
+********************************/
+
+/*
+start contact
+
+*/
+
+.contact_social ul li:not(:last-of-type) {
+    margin-right: 0;
+    margin-left: 22px;
+}
+
+.contact_info ul li>div:last-of-type {
+    margin-right: 20px;
+
+}
+
+.footer_nav ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 30px;
+}

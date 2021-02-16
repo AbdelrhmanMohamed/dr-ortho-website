@@ -1,0 +1,492 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1840px
+************/
+
+@media only screen and (max-width: 1840px)
+{
+	.main_nav
+	{
+	    /* margin-left: 200px; */
+	}
+}
+
+/************
+1. 1760px
+************/
+
+@media only screen and (max-width: 1760px)
+{
+	.work_hours
+	{
+	    display: none;
+	}
+}
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	.main_nav
+	{
+		/* margin-left: 180px; */
+	}
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.header_phone
+	{
+		display: none;
+	}
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.main_nav ul li:not(:last-child)
+	{
+		/* margin-right: 29px; */
+	}
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.header_button
+	{
+		display: none;
+	}
+	.home_slider_dots
+	{
+		left: calc((100vw - 930px) / 2);
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.main_nav,
+	.header_social
+	{
+		display: none;
+	}
+	.home_slider_dots
+	{
+		left: calc((100vw - 690px) / 2);
+	}
+	.header_extra{
+		margin-left: auto;
+	}
+	.hamburger
+	{
+		display: block;
+	}
+	.intro_form_container
+	{
+		margin-top: 102px;
+	}
+	.why_image
+	{
+		position: relative;
+		bottom: auto;
+		right: auto;
+	}
+	.why_content
+	{
+		padding-bottom: 60px;
+	}
+	.why_image img
+	{
+		max-width: 100%;
+	}
+	.cta_phone
+	{
+		margin-top: 33px;
+	}
+	.footer_col:not(:last-child)
+	{
+		margin-bottom: 80px;
+	}
+	.footer_location,
+	.footer_contact
+	{
+		padding-top: 0;
+	}
+	.logo img{
+		width: 270px;
+	}
+	.about_content{
+		margin-top: 30px;
+	}
+	.about_title{
+		margin-top: 15px;
+		margin-bottom: 0;
+	}
+	
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	.home_content
+	{
+		max-width: 500px;
+	}
+	.home_title
+	{
+		font-size: 33px;
+	}
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.home_slider_dots
+	{
+		left: calc((100vw - 510px) / 2);
+	}
+
+	.home_title
+	{
+		font-size: 30px;
+	}
+	.milestone_col:not(:last-child)
+	{
+		margin-bottom: 30px;
+	}
+	.extra_content
+	{
+		width: 100%;
+	}
+	.footer_bar_content
+	{
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer_nav
+	{
+		margin-top: 15px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	p
+	{
+		font-size: 13px;
+	}
+	h2
+	{
+		font-size: 36px;
+	}
+	.header.scrolled .header_content,
+	.header_content
+	{
+		height: 60px;
+	}
+	.home
+	{
+		margin-top: 60px;
+	}
+	.logo a > div:first-child
+	{
+		font-size: 24px;
+	}
+	.logo a > div:last-child
+	{
+		font-size: 10px;
+	}
+	.section_subtitle
+	{
+		font-size: 16px;
+	}
+	.header_content
+	{
+		padding-left: 15px;
+		padding-right: 30px;
+	}
+	.button
+	{
+		height: 40px;
+	}
+	.button a
+	{
+		font-size: 12px;
+		line-height: 36px;
+		padding-left: 31px;
+		padding-right: 30px;
+	}
+	.home_slider_dots
+	{
+		display: none !important;
+	}
+	.home_title{
+		font-size: 25px;
+	}
+	.home_text p
+	{
+		font-size: 15px;
+		line-height: 1.6;
+	}
+	.cta_title
+	{
+		font-size: 28px;
+	}
+	.cta_phone
+	{
+		font-size: 24px;
+	}
+	.extra_disc > div:first-child
+	{
+		font-size: 48px;
+	}
+	.extra_disc > div:last-child
+	{
+		font-size: 20px;
+	}
+	.extra_title
+	{
+		font-size: 56px;
+	}
+	.newsletter
+	{
+		padding-bottom: 67px;
+	}
+	.newsletter_row
+	{
+		margin-top: 39px;
+	}
+	.newsletter_title
+	{
+		font-size: 24px;
+	}
+	.newsletter_input
+	{
+		width: calc(100% - 120px);
+		height: 40px;
+	}
+	.newsletter_input::-webkit-input-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.newsletter_input:-moz-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.newsletter_input::-moz-placeholder
+	{
+		font-size: 13px !important;
+	} 
+	.newsletter_input:-ms-input-placeholder
+	{ 
+		font-size: 13px !important;
+	}
+	.newsletter_input::input-placeholder
+	{
+		font-size: 13px !important;
+	}
+	.newsletter_button
+	{
+		width: 142px;
+		height: 40px;
+		font-size: 12px;
+	}
+	.opening_hours
+	{
+		left: auto;
+		width: 100%;
+	}
+	.logo img{
+		width: 200px;
+	}
+	.home_content{
+		padding: 15px;
+		box-shadow: -227px 0px 0px 20px #47caf1;
+		left:10px;
+		max-width: 350px;
+		background: rgba(255, 255, 255, 0.9);
+	}
+	.home img{
+		height: 470px;
+	}
+	.services_box{
+		padding-right: 15px;
+	}
+	.milestone_counter{
+		font-size: 25px;
+	}
+	.milestone_text{
+		font-size: 14px;
+	}
+	.achievements .text h3{
+		font-size: 29px;
+	}
+	.footer_nav ul li a {
+		font-size: 12px;
+	}
+	.footer_nav ul li:not(:last-child){
+		margin-right: 16px;
+	}
+	.footer .brand_logo {
+		width: 60px;
+	}
+	.direct_line_num {
+		font-size: 19px;
+	}
+	.copy-right p , .copy-right {
+		font-size: 10px;
+	}
+	.banner_area{
+		background-position: 80%;
+	}
+	.banner_area .banner_inner .banner_content{
+		max-width: 220px;
+		padding: 50px 20px;
+	}
+	.banner_area .banner_inner .banner_content h2{
+		font-size: 25px;
+	}
+	.banner_area .banner_inner .banner_content .page_link{
+		float: left;
+	}
+	.about_title{
+		font-size: 25px;
+	}
+	.about_subtitle{
+		font-size: 18px
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 380px)
+{
+	.home_content{
+		padding: 15px;
+		left:10px;
+		max-width: 340px;
+	}
+}
